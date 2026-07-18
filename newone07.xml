@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="07/13/26||17:11:44" using="Simscape Multibody Link Version 7.4" from="SolidWorks 34.0.0"/>
+<ModelUnits mass="kilogram" length="centimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="assembly 2009010 epson t3" uid="assembly 2009010 epson t3" version="546">
+<AssemblyFile name="assembly 2009010 epson t3.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="arm FINAL-1" uid="arm FINAL-1" entityUid="arm FINAL*:*Default">
+<Transform>
+<Rotation>0.80974892957216316 0 0.58677650861016595 0 1 0 -0.58677650861016595 0 0.80974892957216316</Rotation>
+<Translation>-1.3545864804045762 2.6843099316077592 1.6484994927580114</Translation>
+</Transform>
+</Instance>
+<Instance name="Part6^assembly 2009010 epson t3-1" uid="Part6^assembly 2009010 epson t3-1" grounded="true" entityUid="Part6^assembly 2009010 epson t3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="cable final-1" uid="cable final-1" entityUid="cable final*:*Default">
+<Transform>
+<Rotation>-0.56800248020541699 0 0.82302684189550901 0 1 0 -0.82302684189550901 0 -0.56800248020541699</Rotation>
+<Translation>1.2051470742301731 3.5993099316077588 2.5097872482102974</Translation>
+</Transform>
+</Instance>
+<Instance name="CONNECTING ARM-1" uid="CONNECTING ARM-1" entityUid="CONNECTING ARM*:*Default">
+<Transform>
+<Rotation>0.56800248020542077 0 -0.82302684189550646 0 1 -1.0957038997805763e-16 0.82302684189550646 1.2666954726125253e-16 0.56800248020542077</Rotation>
+<Translation>0.31892164685920976 2.0293099316077594 1.225660259129465</Translation>
+</Transform>
+</Instance>
+<Instance name="stopper-2" uid="stopper-2" entityUid="stopper*:*Default">
+<Transform>
+<Rotation>0.62912529421700503 0 0.7773039072179988 0 1 -1.0925144676512792e-16 -0.7773039072179988 0 0.62912529421700503</Rotation>
+<Translation>-1.7510148122233415 2.1238792744153039 1.9357673408077525</Translation>
+</Transform>
+</Instance>
+<Instance name="base final-1" uid="base final-1" grounded="true" entityUid="base final*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>2.6458201123795777 0.12430993160775916 2.5097872482102863</Translation>
+</Transform>
+</Instance>
+<Instance name="shaft final final-1" uid="shaft final final-1" entityUid="shaft final final*:*Default">
+<Transform>
+<Rotation>-0.62983768907160309 0 0.77672677655977762 0 1 0 -0.77672677655977762 0 -0.62983768907160309</Rotation>
+<Translation>-1.7510148122223514 1.7269086492369179 1.9357673408070415</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base final-1</Uid>
+</InstancePath>
+<Position>-1.4406730381493817 1.9100000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>CONNECTING ARM-1</Uid>
+</InstancePath>
+<Position>1.560249221183801 0.0050000000000003375 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>base final-1</Uid>
+</InstancePath>
+<Position>-1.4406730381493817 1.9100000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CONNECTING ARM-1</Uid>
+</InstancePath>
+<Position>1.5602492211838006 0.30000000000000027 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>CONNECTING ARM-1</Uid>
+</InstancePath>
+<Position>-0.63975077881619991 0.29499999999999993 -2.7755575615628914e-16</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm FINAL-1</Uid>
+</InstancePath>
+<Position>0 -0.35999999999999988 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>CONNECTING ARM-1</Uid>
+</InstancePath>
+<Position>-0.63975077881619991 0.29999999999999982 -2.7755575615628914e-16</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm FINAL-1</Uid>
+</InstancePath>
+<Position>1.6179435999687635 -0.33000000000000007 -1.1102230246251565e-16</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm FINAL-1</Uid>
+</InstancePath>
+<Position>-0.48956944225568799 -0.50000000000000178 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>shaft final final-1</Uid>
+</InstancePath>
+<Position>1.4432899320127035e-14 2.6329411764705886 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>shaft final final-1</Uid>
+</InstancePath>
+<Position>1.4432899320127035e-14 2.6329411764705886 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>stopper-2</Uid>
+</InstancePath>
+<Position>0 -0.044999999999999929 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<UnknownConstraint name="Lock1">
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>arm FINAL-1</Uid>
+</InstancePath>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>stopper-2</Uid>
+</InstancePath>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Distance name="LimitDistance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shaft final final-1</Uid>
+</InstancePath>
+<Position>0 2.5329411764705889 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm FINAL-1</Uid>
+</InstancePath>
+<Position>-0.48956944225568799 1.3999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base final-1</Uid>
+</InstancePath>
+<Position>-1.4406730381493817 3.0299999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cable final-1</Uid>
+</InstancePath>
+<Position>0 -0.14999999999999991 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>CONNECTING ARM-1</Uid>
+</InstancePath>
+<Position>-0.63975077881619991 0.29499999999999993 -2.7755575615628914e-16</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cable final-1</Uid>
+</InstancePath>
+<Position>2.2000000000000006 0.70999999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base final-1</Uid>
+</InstancePath>
+<Position>-2.2204460492503131e-15 3.3799999999999999 0.49327886219476191</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cable final-1</Uid>
+</InstancePath>
+<Position>0 -0.094999999999999751 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Angle name="LimitAngle1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>CONNECTING ARM-1</Uid>
+</InstancePath>
+<Position>1.4070134156128697 0.30000000000000027 0.26947873365263542</Position>
+<Axis>1.1102230246251565e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base final-1</Uid>
+</InstancePath>
+<Position>0 1.8649999999999995 0.48276785732398597</Position>
+<Axis>-0.28906024129947766 0 0.95731090921387074</Axis>
+</ConstraintGeometry>
+</Angle>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="CONNECTING ARM" uid="CONNECTING ARM*:*Default" version="137">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="CONNECTING ARM.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>451.47712295719873</Mass>
+<CenterOfMass>0.45232207335683988 0.15112039657303428 -1.3712705401397223e-05</CenterOfMass>
+<Inertia>14.617534208471346 296.72808491541105 288.9593248799535 0.001164683376768323 -0.0048979025007680095 0.18807386898626124</Inertia>
+</MassProperties>
+<GeometryFile name="CONNECTING ARM_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.3235294117647059" g="0.30980392156862746" b="0.29411764705882354" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part6^assembly 2009010 epson t3" uid="Part6^assembly 2009010 epson t3*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="assembly 2009010 epson t3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part6-assembly 2009010 epson t3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Specular r="0.44705882352941173" g="0.44705882352941173" b="0.44705882352941173" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="arm FINAL" uid="arm FINAL*:*Default" version="1134">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="arm FINAL.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3807.6236437829052</Mass>
+<CenterOfMass>0.96886460720576673 0.45598957228283959 6.8347919862040923e-05</CenterOfMass>
+<Inertia>1166.6391116175207 2313.1523964820126 2920.5531889335912 0.027587096156874963 -0.007329554410769836 -265.7297296481122</Inertia>
+</MassProperties>
+<GeometryFile name="arm FINAL_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.54352941176470582" g="0.52980392156862743" b="0.51607843137254905" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="base final" uid="base final*:*Default" version="1196">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="base final.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5276.282136051007</Mass>
+<CenterOfMass>-0.88466349369160402 1.5793147196225477 0.0015135972753323389</CenterOfMass>
+<Inertia>5437.0997939530225 1858.0051112036147 6440.5509853390186 -0.97371906042180412 -3.624110785585497 158.19371473026857</Inertia>
+</MassProperties>
+<GeometryFile name="base final_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Specular r="0.44705882352941173" g="0.44705882352941173" b="0.44705882352941173" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="cable final" uid="cable final*:*Default" version="248">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="cable final.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>327.10405430742316</Mass>
+<CenterOfMass>0.99876621004582711 1.4438233213482581 -3.7578121074196568e-06</CenterOfMass>
+<Inertia>140.81352292212145 266.10748086123704 403.45647361954025 0.00021748668667308498 0.00023391116546978453 -41.204515847618119</Inertia>
+</MassProperties>
+<GeometryFile name="cable final_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Diffuse r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Specular r="0.050980392156862744" g="0.050980392156862744" b="0.050980392156862744" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="shaft final final" uid="shaft final final*:*Default" version="150">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="shaft final final.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>96.853810930610322</Mass>
+<CenterOfMass>0.0003966513952519427 1.0404542948813975 -0.001283165505277609</CenterOfMass>
+<Inertia>113.48107651045669 0.56328242516311566 113.49002715187447 0.19168453164579433 -0.0047686289897926233 -0.059220629773695833</Inertia>
+</MassProperties>
+<GeometryFile name="shaft final final_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.26666666666666666" g="0.26666666666666666" b="0.26666666666666666" a="1"/>
+<Diffuse r="0.26666666666666666" g="0.26666666666666666" b="0.26666666666666666" a="1"/>
+<Specular r="0.13333333333333333" g="0.13333333333333333" b="0.13333333333333333" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="stopper" uid="stopper*:*Default" version="127">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="stopper.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.750031242116405</Mass>
+<CenterOfMass>-0.0019796400800909863 0.0049999999998503316 3.321520999139926e-06</CenterOfMass>
+<Inertia>0.12440601058621409 0.23252699050744138 0.1242190235877836 -3.3467587291526553e-13 -5.7043335594358044e-06 3.1206287642049795e-13</Inertia>
+</MassProperties>
+<GeometryFile name="stopper_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Specular r="0.44705882352941173" g="0.44705882352941173" b="0.44705882352941173" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
